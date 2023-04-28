@@ -71,15 +71,13 @@ nav ul li a {
 .header-name h1{
     color: var(--gray);
     font-size: 2.5rem;
-   overflow: hidden;
-
 }
 
 
 .header-name p{
     color: var(--gray);
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .header-name img{
@@ -97,11 +95,11 @@ nav ul li a {
 }
 
 .img{
-  background-image:url(imagens/imagem-top-header.jpg);
+  background-image:url(imagens/KAESS.jpg);
   background-position: 100%;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 79vh;
   width: 100vw;
 
 }
