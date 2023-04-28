@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:ital,wght@0,200;0,400;1,100&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000;
+  --white: #f7f0e2;
+  --gray: #92b3b8;
+}
+
+body {
+  font-family: "poppins";
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 86.5vh;
+}
+
+
+.menu-nav {
+    background-color: var(--black);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    padding: 20px 0;
+}
+
+.img-logo img {
+  border-radius: 50%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  
+  gap: 2rem;
+  position: relative;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+
+.header-name{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0,0,0) 10%, rgb(6, 14, 48) 100%);
+    padding-left: 25px;
+    width: 100vw;
+}
+
+.header-name h1{
+    color: var(--gray);
+    font-size: 2.5rem;
+   overflow: hidden;
+
+}
+
+
+.header-name p{
+    color: var(--gray);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.header-name img{
+    width: 100vw;
+    height: 100%;
+    left: 0;
+}
+
+.name{
+    /* flex: 1.5; */
+    max-width:660px;
+    height: auto;
+    line-height: 3.5rem;
+    padding: 10px;
+}
+
+.img{
+  background-image:url(imagens/imagem-top-header.jpg);
+  background-position: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw;
+
+}
+
+
+
+
+
+
+
