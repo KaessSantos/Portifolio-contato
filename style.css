@@ -109,16 +109,6 @@ nav ul li a {
   
 }
 
-/* .img2{
-  background-image:url(imagens/KAESS.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 79vh;
-  width: 100vw;
-} */
-
-
 /* main */
 
 .container{
@@ -126,9 +116,10 @@ nav ul li a {
   width: 100vw;
   flex-direction: column;
   justify-content: center;
+ 
   align-items: center;
   background: linear-gradient(107deg, rgba(37,39,40,1) 14%, rgba(63,65,67,1) 97%);
-  padding: 8rem 0 40px 0;
+  padding: 8rem 40px 40px 40px;
 }
 
 .container h2{
