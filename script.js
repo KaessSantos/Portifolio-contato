@@ -1,6 +1,6 @@
 "user-strict";
 
-
+let linkMenu = document.querySelector('ul')
 
 function menu() {
   let ul = document.querySelector("ul");
@@ -8,10 +8,11 @@ function menu() {
   ul.classList.toggle("remove");
 
   ul.style.transition = "ease 1s";
-
-  if(listaLink !== -1){
-  
-  }
-  
 }
+
+linkMenu.addEventListener('click', function(){
+  linkMenu.classList.toggle("remove");
+});
+
+
 
