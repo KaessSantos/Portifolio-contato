@@ -46,7 +46,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 85px;
+    height: 60px;
     padding: 20px 0;
     width: 100%;
     position: fixed;
@@ -617,16 +617,14 @@ footer a{
   height:50px;
   text-align: center;
   border-radius: 10px;
-  background-color:#28479e3d;
 
   display: flex;
   justify-content: center;
   align-items: center;
   }
 
-  nav ul li:hover{
-    background-color: red;
-  }
+ 
+
 
   nav ul li a{
     width: 100%;
