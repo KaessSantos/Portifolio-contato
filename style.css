@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:ital,wght@0,200;0,400;1,100&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Special+Elite&display=swap');
+
 
 * {
   margin: 0;
@@ -79,20 +81,24 @@ nav ul li a {
 
 .header-name h1{
     color: var(--gray);
-    font-size: 2.5rem;
+    font-size: 38px;
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
 }
 
 
 .header-name p{
     color: var(--gray);
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-family: 'Special Elite', cursive;
+    font-weight: normal;
 }
 
 
 .name{
-    max-width: 660px;
-    line-height: 4rem;
+    max-width: 100%;
+    line-height: 2.8rem;
 }
 
 .img-container{
@@ -496,6 +502,8 @@ footer a{
       margin: 5px;
       padding: 15px 20px;
     }
+
+    
 }
 
 @media screen and (max-width:576px) {
@@ -503,6 +511,56 @@ footer a{
       display: flex;
       flex-wrap: wrap;
     }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      height: 50.5vh;
+    }
+
+    .header-name{
+      height:100vh;
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, rgba(0,0,0) 10%, rgb(6, 14, 48) 100%);
+      overflow-x: hidden;
+      padding: 0;
+  }
+  
+  .name{
+      max-width: 100%;
+      text-align: center;
+      padding-left: 25px;
+      line-height: 2.4rem;
+  }
+
+  
+  .name h1{
+      color: var(--gray);
+      font-size: 1.3rem;
+  }
+  
+  
+  .name p{
+      color: var(--gray);
+      font-size: 1.4rem;
+  }
+
+  .name p br{
+    display: none;
+  }
+  
+  
+  
+  .img-container{
+    display: none;
+    flex-direction: row;
+    width: 58%;
+  }
+  
+  
     
     footer div{
       padding-bottom: 2.5rem;
@@ -518,7 +576,7 @@ footer a{
     
     footer div ul li{
       list-style: none;
-      padding: 30px;
+      padding: 15px;
       font-size: 23px;
     }
     
@@ -528,6 +586,7 @@ footer a{
       box-shadow:#ffffff69 0px 0px 15px 2px;
       font-weight: 400;
       font-size: 12px;
+      padding: 20px;
     }
 }
 
