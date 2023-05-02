@@ -559,6 +559,20 @@ footer a{
     flex-direction: row;
     width: 58%;
   }
+
+
+  .section-projetos{
+    padding: 0;
+  }
+
+  .card{
+    margin-bottom: 3rem;
+  }
+
+  /* .projeto-card-container{
+    margin-bottom: 3rem;
+
+  } */
   
   
     
