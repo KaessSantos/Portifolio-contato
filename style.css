@@ -575,6 +575,7 @@ footer a{
 
   .section-projetos{
     padding: 0;
+    
   }
 
   .card{
@@ -623,6 +624,10 @@ footer a{
   align-items: center;
   }
 
+  .caixa{
+    padding-top: 45px;
+  }
+
  
 
 
@@ -643,7 +648,8 @@ footer a{
   }
 
   .container h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    padding-top: 35px;
   }
 
   .container{
