@@ -16,9 +16,6 @@
  <p>
     <img alt="projeto portifólio" src="github-img/frente-mobil.png" width="100%">
  </p>
- <p>
-    <img alt="projeto portifólio" src="github-img/mobil-menu.png" width="100%">
- </p>
 
 
  ## 🚀 Tecnologias
