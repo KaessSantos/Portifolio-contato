@@ -2,9 +2,7 @@
 
 let linkMenu = document.querySelector("ul");
 
-// let creatImg = document.createElement("li");
-// creatImg.innerHTML = `<img src="imagens/kaess.png" alt="" style="width:50px">`;
-// linkMenu.append(creatImg)
+
 
 
 function menu() {
