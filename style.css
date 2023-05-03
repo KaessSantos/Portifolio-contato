@@ -589,7 +589,7 @@ footer a {
   nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     right: 0;
