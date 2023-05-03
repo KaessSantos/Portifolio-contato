@@ -110,22 +110,23 @@ nav ul li a:hover {
 }
 
 .name {
-  max-width: 100%;
+  width: 100%;
   line-height: 2.8rem;
+  padding: 50px;
 }
 
 .img-container {
   display: flex;
   flex-direction: row;
-  width: 58%;
+  width: 50%;
 }
 
-.img {
+.img{
   background-image: url(imagens/header-top.png);
-  background-position: 100%;
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+
   width: 100vw;
   height: 87vh;
 }
