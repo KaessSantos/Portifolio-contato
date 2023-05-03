@@ -42,7 +42,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 115px;
+  height: 85px;
   width: 100%;
   position: fixed;
   z-index: 900;
@@ -50,7 +50,7 @@ header {
 
 .img-logo img {
   border-radius: 50%;
-  width: 103px;
+  width: 70px;
 }
 
 nav ul {
