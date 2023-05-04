@@ -669,7 +669,7 @@ footer a {
   }
 
   #img-menu-mobil img {
-    width: 95px;
+    width: 100px;
     border-radius: 50%;
     border: 3px solid #fff;
   }
@@ -682,6 +682,7 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
   }
 
   .caixa {
@@ -690,6 +691,7 @@ footer a {
 
   nav ul li a {
     width: 100%;
+    font-size: 1.3rem;
   }
 
   .remove {
