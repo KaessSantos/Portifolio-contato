@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 :root {
@@ -17,6 +18,7 @@
 body {
   font-family: "poppins";
   overflow-x: hidden;
+  
 }
 
 header {
@@ -48,18 +50,25 @@ header {
   color: #fff;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 85px;
   width: 100%;
-  padding: 0 60px 0 7%;
+  padding: 0 7%;
   position: fixed;
   z-index: 900;
 }
 
 .img-logo img {
   border-radius: 50%;
-  width: 70px;
+  width:93px;
+  padding: 5px;
+}
+
+nav{
+  width: 70%;
+  display: flex;
+  justify-content: right;
 }
 
 nav ul {
@@ -78,7 +87,7 @@ nav ul li a {
   text-decoration: none;
   color: var(--white);
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   transition: 0.5s;
 }
 
@@ -215,24 +224,30 @@ nav ul li a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .caixa1 {
-  width: 100%;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 3rem;
+  flex: 0.7;
 }
 
 .caixa2 {
   color: #fff;
   display: flex;
-  flex-direction: column;
   align-items: start;
   gap: 3rem;
+  flex: 1;
+}
+
+.caixa-sobre {
+  max-width: 70%;
+  text-align: center;
+  margin: 25px;
 }
 
 .load {
@@ -291,11 +306,7 @@ nav ul li a:hover {
   justify-content: center;
 }
 
-.caixa-sobre {
-  max-width: 70%;
-  text-align: center;
-  margin: 25px;
-}
+
 
 .caixa-sobre p {
   font-size: 1.2rem;
@@ -452,28 +463,6 @@ footer a {
 
 /* Medias query */
 
-@media screen and (max-width: 992px) {
-  .container-SobreMim {
-    background-color: var(--black);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-  }
-
-  .caixa {
-    width: 100%;
-  }
-
-  .caixa-sobre {
-    max-width: 100%;
-    text-align: center;
-    padding: 10px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .container-SobreMim {
     display: flex;
@@ -501,7 +490,7 @@ footer a {
   }
 }
 
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 750px) {
   .projeto-card-container {
     display: flex;
     flex-wrap: wrap;
@@ -511,14 +500,61 @@ footer a {
     margin: 5px;
     padding: 15px 20px;
   }
+
+  nav ul li a{
+    font-size: 1rem;
+  }
+
+  .img-logo img {
+    border-radius: 50%;
+    width:70px;
+    padding: 5px;
+  }
+
+  .menu-nav{
+    background-color: var(--black);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    position: fixed;
+    z-index: 900;
+    width: 100vw;
+    padding: 20px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  
+    gap: 0.8rem;
+    position: relative;
+  }
+
+  .caixa-sobre p{
+    font-size: 15px;
+
+  }
+ 
 }
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
   .container-card {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .projeto-card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-button button {
+    margin: 5px;
+    padding: 15px 20px;
   }
 
   header {
