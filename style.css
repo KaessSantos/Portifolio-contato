@@ -682,17 +682,20 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+
   }
+
+  nav ul li a {
+    width: 100%;
+    font-size: 1.8rem;
+    padding: 25px;
+  }
+
 
   .caixa {
     padding-top: 45px;
   }
 
-  nav ul li a {
-    width: 100%;
-    font-size: 1.3rem;
-  }
 
   .remove {
     width: 100vw;
