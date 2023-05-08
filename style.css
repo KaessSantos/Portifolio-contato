@@ -257,6 +257,7 @@ nav ul li a:hover {
   border-radius: 2px;
   position: relative;
   margin-right: 3rem;
+  cursor: pointer;
 }
 
 .load span {
