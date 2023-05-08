@@ -52,9 +52,9 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 85px;
+  height: 100px;
   width: 100%;
-  padding: 0 7%;
+  padding: 0px 7%;
   position: fixed;
   z-index: 900;
 }
@@ -285,7 +285,7 @@ nav ul li a:hover {
 
 .ingles {
   background-color: #497c9d;
-  width: 30%;
+  width: 50%;
 }
 
 .equipe {
@@ -518,7 +518,7 @@ footer a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height: 70px;
     position: fixed;
     z-index: 900;
     width: 100vw;
